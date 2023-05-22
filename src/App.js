@@ -1,4 +1,4 @@
-import './App.css'
+import './styles/css/App.css'
 import image from './assets/img/background.jpg'
 import Layout from './components/layouts/layout'
 import Card from './components/card'
