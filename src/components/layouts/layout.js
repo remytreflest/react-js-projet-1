@@ -1,8 +1,8 @@
-const Layout = ({ children }) => {
+const Layout = ({ children, img }) => {
     return (
         <>
             <header>
-                <p>Petite image qui va bien</p>
+                <img src={img} alt="la petite image qui va bien" style={{ width: '100%', maxWidth: '1080px', height: 'auto'}} />
             </header>
 
             <main>
