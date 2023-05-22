@@ -37,7 +37,12 @@
 }
 
 .card-header-section {
-    background: #2a3341;
+    background: #2a3341!important;
+    color: white;
+}
+
+.card-header-subsection {
+    background: #687da0!important;
     color: white;
 }
 

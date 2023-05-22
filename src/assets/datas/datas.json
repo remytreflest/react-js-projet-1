@@ -1,5 +1,6 @@
 {
-    "competences" : [
+    "presentation": "Bonjour je m'appelle Rémy Treflest et je vais vous conter mon histoire",
+    "competences": [
         {
             "id": "1",
             "name": "C#"
@@ -24,19 +25,19 @@
     "experiences": [
         {
             "id": "1",
-            "title" : "Développeur C#",
+            "title": "Développeur C#",
             "description": "EBP Informatique · Contrat en alternance. Blazor, MVC, .NET , Azure (AD, CI / CD), SQL Serveur, Docker, Kubernetes, API, TU, Méthodologie Agile, WPF, MVVM",
             "date": "sept. 2021 - aujourd’hui · 1 an 9 mois"
         },
         {
             "id": "2",
-            "title" : "Développeur Web",
+            "title": "Développeur Web",
             "description": "Création / optimisation / ajout de fonctionnalités concernant un site internet de petites annonces (wordpress, dokan, woocommerce) avec back-up client régulier (git lab, board issues, whereby).",
             "date": "mai 2021 - juil. 2021 · 3 mois"
         },
         {
             "id": "3",
-            "title" : "Infirmier",
+            "title": "Infirmier",
             "description": "Ramsay Général de Santé | Hôpital public de Rambouillet - Chirurgie",
             "date": "oct. 2013 - sept. 2020 · 7 ans"
         }
@@ -44,19 +45,19 @@
     "formations": [
         {
             "id": "1",
-            "title" : "Bachelor Développement",
+            "title": "Bachelor Développement",
             "description": "On y fait beaucoup de choses",
             "date": "octobre 2022 - aujourd’hui · 8 mois"
         },
         {
             "id": "2",
-            "title" : "BTS SIO option SLAM",
+            "title": "BTS SIO option SLAM",
             "description": "Les bases du développement on été vu ici",
             "date": "octobre 2020 - juil. 2022 · 2 ans"
         },
         {
             "id": "3",
-            "title" : "IFSI",
+            "title": "IFSI",
             "description": "Cours pour apprendre à soigner des gens",
             "date": "oct. 2010 - sept. 2013 · 3 ans"
         }
@@ -89,5 +90,6 @@
             "name": "Permaculture"
         }
     ],
-    "urlGit": "https://github.com/remytreflest/react-js-projet-1"
+    "urlGit": "https://github.com/remytreflest/react-js-projet-1",
+    "footerText": "Merci du temps que vous avez pris à lire"
 }

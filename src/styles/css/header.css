@@ -20,11 +20,11 @@
 }
 
 .header-black-color {
-    color: black!important;
+    color: black !important;
 }
 
 .header-img {
     height: 100vh;
-    background-size: cover!important;
+    background-size: cover !important;
     background-attachment: fixed;
 }

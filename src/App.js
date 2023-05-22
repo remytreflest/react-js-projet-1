@@ -3,10 +3,9 @@ import image from './assets/img/background.jpg'
 import Layout from './components/layouts/layout'
 import Card from './components/card'
 import Section from './components/section'
-import file  from './assets/datas/experiences.json'
+import file  from './assets/datas/datas.json'
 
 function App() {
-
     const compdata = file.competences.map((competence) => 
     {
         return <li key={competence.id}>{competence.name}</li>
@@ -32,14 +31,12 @@ function App() {
         return <Card key={formation.id} title={formation.title} experience={formation.description} data={formation.date} />
     });
 
-
-
     return (
         <div className='App'>
             <Layout img={ image }>
 
                 <Section>
-                    <div>{`Bonjour je m'appelle Rémy Treflest et je vais vous conter mon histoire`}</div>
+                    <div>{ file.presentation }</div>
                 </Section>
 
                 <Section title="Competences">

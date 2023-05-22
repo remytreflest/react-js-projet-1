@@ -1,17 +1,21 @@
+import file  from '../../assets/datas/datas.json'
+
 const Layout = ({ children, img }) => {
     return (
         <>
             <header>
-                <img src={img} alt="la petite image qui va bien" style={{ width: '100%', maxWidth: '1080px', height: 'auto'}} />
+                <img
+                    src={img}
+                    alt='la petite image qui va bien'
+                    style={{ width: '100%', maxWidth: '1080px', height: 'auto' }}
+                />
             </header>
 
-            <main>
-                { children }
-            </main>
+            <main>{children}</main>
 
-            <footer>Merci du temps que vous avez pris à lire</footer>
+            <footer>{ file.footerText }</footer>
         </>
-    );
+    )
 }
 
-export default Layout;
+export default Layout
