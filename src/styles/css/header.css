@@ -1,0 +1,30 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.header-contener {
+    max-height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.header-text {
+    position: absolute;
+    top: 45%;
+    left: 25%;
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.header-black-color {
+    color: black!important;
+}
+
+.header-img {
+    height: 100vh;
+    background-size: cover!important;
+    background-attachment: fixed;
+}
