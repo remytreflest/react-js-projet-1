@@ -1,4 +1,4 @@
-import file  from '../../assets/datas/datas.json'
+import file from '../../assets/datas/datas.json'
 import Navigation from '../Navigation'
 
 const Layout = ({ children, img }) => {
@@ -8,7 +8,7 @@ const Layout = ({ children, img }) => {
 
             <main>{children}</main>
 
-            <footer>{ file.footerText }</footer>
+            <footer>{file.footerText}</footer>
         </>
     )
 }
